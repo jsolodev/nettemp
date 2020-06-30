@@ -1,6 +1,6 @@
 import Adafruit_DHT
 import sys, os
-dir=(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', '..','..','..')))
+dir=(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..','..','..')))
 sys.path.append(dir+'/app')
 from local_nettemp import insert
 
